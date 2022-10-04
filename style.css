@@ -1,0 +1,149 @@
+button{
+    width: 100px;
+    height:30px;
+    border: 2px solid black;
+    background-color: orange;
+    color: black;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.head{
+    font-size: 22px;
+    color: blue;
+}
+
+.bottom{
+    color: red;
+}
+
+.text{
+    font-size: 25px;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+b{
+    font-size: 22px;
+}
+.cont{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    margin-left: 60px;
+    transition: width 4s;
+}
+
+.cont:hover{
+    width:250px
+}
+
+.ques1{
+    background-color: dodgerblue;
+}
+.ques2{
+    background-color: tomato;
+}
+.ques3{
+    background-color: blue;
+}
+.ques4{
+    background-color: hotpink;
+}
+.ques5{
+    background-color: darkgray;
+}
+.ques6{
+    background-color: violet;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    /* border-radius: 50%; */
+    margin-left: 80px;
+}
+.circle:hover{
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.container1{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+.container2{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+.container3{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+.container4{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+@media (min-width:200px) and (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1{
+        /* width: 600px;
+        height: 200px; */
+        background-color: springgreen;
+        margin-left: 25%;
+    }
+    .container2{
+        /* width: 600px;
+        height: 200px; */
+        background-color: springgreen;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .container3{
+        /* width: 600px;
+        height: 200px; */
+        background-color: springgreen;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .container4{
+        /* width: 200px;
+        height: 30px; */
+        background-color: springgreen;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+}
+
+.animate{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    animation: change 4s infinite 4s;
+}
+@keyframes change{
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color:magenta;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: chocolate;
+    }
+}
